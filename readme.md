@@ -29,5 +29,5 @@ Naša agencija se bavi online reklamiranjem nekretnina. Na našoj web aplikaciji
 - Pored navedenih sekcija za neautorizovanog korisnika postoji sekcija My Properties gde on može da vidi listu stanova koje je on uneo. U toj sekciji može da doda stan, da vrši izmenu i brisanje.
 - Agent može da menja podatke o sebi klikom na ikonicu user u gornjem desnom uglu
 
- Sofija Rakonjac [https://github.com/sofija95](https://github.com/sofija95)
+ Sofija Rakonjac [https://github.com/sofija95](https://github.com/sofija95) <br />
  Violeta Zdravković [https://github.com/violeta95](https://github.com/violeta95)
