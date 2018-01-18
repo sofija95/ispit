@@ -1,0 +1,101 @@
+<!-- property area -->
+<div class="content-area user-profiel" style="background-color: #FCFCFC;">&nbsp;
+    <div class="container">
+        <div class="register-modal col-md-12" uib-alert
+             ng-repeat="alert in $ctrl.alerts" ng-class="'alert-' + (alert.type || 'warning')"
+             dismiss-on-timeout="2000"
+             close="$ctrl.closeAlert($index)">{{alert.msg}}
+        </div>
+
+        <div class="clearfix"></div>
+        <div>
+            <div class="box-for overflow">
+                <div class="col-md-12 col-xs-12 register-blocks">
+                    <h2>Update account : </h2>
+                    <form name="registerForm" ng-submit="$ctrl.izmeni()" novalidate>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="user_id">Id</label>
+                                <input type="text" class="form-control" ng-model="$ctrl.korisnik.user_id"
+                                       name="first_name" required="" id="user_id" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" ng-model="$ctrl.korisnik.email" name="email"
+                                       required="" id="email">
+                                <div ng-show="registerForm.$submitted || registerForm.email.$touched">
+                                    <div ng-show="registerForm.email.$error.required">Email is required.</div>
+                                    <div ng-show="registerForm.email.$error.email">Email is not valid.</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" class="form-control" ng-model="$ctrl.korisnik.username"
+                                       name="username" required="" id="username">
+                                <div ng-show="registerForm.$submitted || registerForm.username.$touched">
+                                    <div ng-show="registerForm.username.$error.required">User is required.</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" ng-model="$ctrl.korisnik.password"
+                                       name="password" required="" id="password">
+                                <div ng-show="registerForm.$submitted || registerForm.password.$touched">
+                                    <div ng-show="registerForm.password.$error.required">Password is required.</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password1">Confirm password</label>
+                                <input type="password" class="form-control" ng-model="$ctrl.korisnik.password1"
+                                       name="paswword1"  id="password1">
+                                <div ng-show="registerForm.$submitted || registerForm.password1.$touched">
+                                    <div ng-show="registerForm.password1.$error.required">Password1 is required.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="first_name">First Name</label>
+                                <input type="text" class="form-control" ng-model="$ctrl.korisnik.first_name"
+                                       name="first_name" required="" id="first_name">
+                                <div ng-show="registerForm.$submitted || registerForm.first_name.$touched">
+                                    <div ng-show="registerForm.first_name.$error.required">First name is required.</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" class="form-control" ng-model="$ctrl.korisnik.last_name"
+                                       name="last_name" required="" id="last_name">
+                                <div ng-show="registerForm.$submitted || registerForm.last_name.$touched">
+                                    <div ng-show="registerForm.last_name.$error.required">Last name is required.</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="agency">Agency</label>
+                                <input type="text" class="form-control" ng-model="$ctrl.korisnik.agency" name="agency"
+                                       required="" id="agency">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="text" class="form-control" ng-model="$ctrl.korisnik.phone" name="phone"
+                                       required="" id="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="address" class="form-control" ng-model="$ctrl.korisnik.address"
+                                       name="address" required="" id="address">
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-default" ng-disabled="!registerForm.$valid">Save
+                            </button>
+                            <a class="btn btn-default" ng-click="$ctrl.odustani()">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

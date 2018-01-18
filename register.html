@@ -1,0 +1,96 @@
+
+<div >
+    <!-- register-area -->
+<div class="register-area" style="background-color: rgb(249, 249, 249);">
+    <div class="container">
+
+        <div class="register-modal col-md-6" uib-alert
+             ng-repeat="alert in $ctrl.alerts" ng-class="'alert-' + (alert.type || 'warning')"
+             dismiss-on-timeout="2000"
+             close="$ctrl.closeAlert($index)">{{alert.msg}}</div>
+
+        <div class="clearfix"></div>
+
+        <div class="col-md-6" ng-show="$ctrl.action == 'register'">
+            <div class="box-for overflow">
+                <div class="col-md-12 col-xs-12 register-blocks">
+                    <h2>New account : </h2>
+                    <form name="registerForm" ng-submit="$ctrl.register()" novalidate>
+                        <div class="form-group">
+                            <label for="first_name">First Name</label>
+                            <input type="text" class="form-control" ng-model="$ctrl.first_name" name="first_name" required="" id="first_name">
+                            <div ng-show="registerForm.$submitted || registerForm.first_name.$touched">
+                                <div ng-show="registerForm.first_name.$error.required">First name is required.</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" class="form-control" ng-model="$ctrl.last_name" name="last_name" required="" id="last_name">
+                            <div ng-show="registerForm.$submitted || registerForm.last_name.$touched">
+                                <div ng-show="registerForm.last_name.$error.required">Last name is required.</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" ng-model="$ctrl.email" name="email" required="" id="email">
+                            <div ng-show="registerForm.$submitted || registerForm.email.$touched">
+                                <div ng-show="registerForm.email.$error.required">Email is required.</div>
+                                <div ng-show="registerForm.email.$error.email">Email is not valid.</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" ng-model="$ctrl.password" name="password" required="" id="password">
+                            <div ng-show="registerForm.$submitted || registerForm.password.$touched">
+                                <div ng-show="registerForm.password.$error.required">Password is required.</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password1">Confirm password</label>
+                            <input type="password" class="form-control" ng-model="$ctrl.password1" name="paswword1" required="" id="password1">
+                            <div ng-show="registerForm.$submitted || registerForm.password1.$touched">
+                                <div ng-show="registerForm.password1.$error.required">Password1 is required.</div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-default" ng-disabled="!registerForm.$valid">Register</button>
+                            <a class="btn btn-default" ng-click="$ctrl.odustani()">Cancel</a>
+                        </div>
+                        <br/>
+                        <p>
+                            <a ng-click="$ctrl.action = 'login'">Login</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6" ng-show="$ctrl.action == 'login'">
+            <div class="box-for overflow">
+                <div class="col-md-12 col-xs-12 login-blocks">
+                    <h2>Login : </h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Username</label>
+                            <input type="text"  ng-model="$ctrl.username" class="form-control" id="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" ng-model="$ctrl.password" class="form-control" id="password">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-default" ng-click="$ctrl.login()">Log in</button>
+                            <a class="btn btn-default" ng-click="$ctrl.odustani()">Cancel</a>
+                        </div>
+                    </form>
+                    <br>
+                    <p>
+                        <a ng-click="$ctrl.action = 'register'">Register</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>

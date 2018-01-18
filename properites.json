@@ -1,0 +1,290 @@
+{
+  "properties": [
+    {
+      "property_id": 1,
+      "user_id": 1,
+      "title": "Beograd-Lekino brdo",
+      "description": "Vise od 90% zavrsena izgradnja. Visok kvalitet gradnje. Poseduje dve terase, PVC stolariju, hrastov parket, sigurnosna ulazna vrata.",
+      "price": 100000,
+      "details" : {
+        "status": "sale",
+        "area": 80,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 1,
+        "garages": 1,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "new_york"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 2,
+      "user_id": 1,
+      "title": "VILLA CORAL",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 50000,
+      "details" : {
+        "status": "sale",
+        "area": 500,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "paris"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 3,
+      "user_id": 1,
+      "title": "VILLA NANCY",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "sale",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 4,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "casablanca"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 4,
+      "user_id": 2,
+      "title": "VILLA SARAH",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "sale",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "tokyo"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 5,
+      "user_id": 2,
+      "title": "VILLA ROSSA",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "sale",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "new_york"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 6,
+      "user_id": 3,
+      "title": "VILLA GOLD",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "sale",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "new_york"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 7,
+      "user_id": 3,
+      "title": "VILLA GUESS",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "sale",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "paris"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 8,
+      "user_id": 1,
+      "title": "VILLA BOKI",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "sale",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "new_york"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 9,
+      "user_id": 1,
+      "title": "VILLA RUBI",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "sale",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "new_york"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 10,
+      "user_id": 1,
+      "title": "VILLA MILANO",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "rent",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "new_york"
+      },
+      "galleries": [
+
+      ]
+    },
+    {
+      "property_id": 11,
+      "user_id": 1,
+      "title": "VILLA STAR",
+      "description": "Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies",
+      "price": 825000,
+      "details" : {
+        "status": "rent",
+        "area": 350,
+        "bedrooms": 3,
+        "car_garages": 1,
+        "bathroms": 3.5,
+        "garages": 2,
+        "shawers": 2
+      },
+      "additional_details": {
+        "built_id": 2013,
+        "parking": 1
+      },
+      "address":{
+        "city": "tokyo"
+      },
+      "galleries": [
+
+      ]
+    }
+  ]
+}

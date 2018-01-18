@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "first_name": "Sofija",
+      "last_name": "Rakonjac",
+      "agency": "Singi nekretnine",
+      "address": "Nesto",
+      "email": "sofija@test.com",
+      "phone": "+381669898",
+      "username": "sofija",
+      "password": "123123"
+    },
+    {
+      "user_id": 2,
+      "first_name": "Viki",
+      "last_name": "Rakonjac",
+      "agency": "Singi nekretnine",
+      "address": "Nesto",
+      "email": "viki@test.com",
+      "phone": "+381669898",
+      "username": "sofija1",
+      "password": "123123"
+    },
+    {
+      "user_id": 3,
+      "first_name": "Sofija",
+      "last_name": "Rakonjac",
+      "agency": "Singi nekretnine",
+      "address": "Nesto",
+      "email": "sofija1@test.com",
+      "phone": "+381669898",
+      "username": "sofija2",
+      "password": "123123"
+    }
+  ]
+}
